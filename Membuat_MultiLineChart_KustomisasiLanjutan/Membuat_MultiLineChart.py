@@ -1,3 +1,6 @@
+# Breakdown datanya berdasarkan dimensi ya, misalnya berdasarkan brand atau province.
+# Nanti akan terlihat bagian mana yang paling berperan dalam kenaikan GMV ini,
+
 # dataset = https://dqlab-dataset.s3-ap-southeast-1.amazonaws.com/retail_raw_reduced.csv
 
 # Import library
