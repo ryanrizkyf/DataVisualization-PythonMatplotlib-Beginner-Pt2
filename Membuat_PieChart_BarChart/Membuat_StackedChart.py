@@ -27,7 +27,7 @@ plt.title('GMV Per Month, Breakdown by City\nDKI Jakarta in Q4 2019',
           loc='center', pad=30, fontsize=15, color='blue')
 plt.xlabel('Order Month', fontsize=12)
 plt.ylabel('Total Amount (in Billions)', fontsize=12)
-plt.legend(bbox_to_anchor=(1, 1), shadow=True, title='City')
+plt.legend(bbox_to_anchor=(1, 1), shadow=True, ncol=1, title='City')
 plt.ylim(ymin=0)
 labels, locations = plt.yticks()
 plt.yticks(labels, (labels/1000000000).astype(int))
