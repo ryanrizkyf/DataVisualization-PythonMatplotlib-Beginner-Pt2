@@ -34,3 +34,8 @@ plt.yticks(labels, (labels/1000000000).astype(int))
 plt.xticks(rotation=0)
 plt.tight_layout()
 plt.show()
+
+# Dari kedua chart tersebut, kita sama-sama bisa melihat pola bahwa kebanyakan GMV
+# turun dari bulan Oktober ke November, tetapi lalu naik pesat di bulan Desember.
+# Untuk di Jakarta Barat, GMV November justru naik dari Oktober. Sedangkan di Jakarta Selatan,
+# GMV Desember justru lebih kecil daripada GMV Oktober
